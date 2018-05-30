@@ -79,6 +79,6 @@ npm run build
 ```
 
 ## 写在最后
-前端实习生一枚，做的不好，还望大佬嘴留情 轻喷 大佬我想要个star
+前端实习生一枚，做的不好，还望大佬嘴下留情 轻喷 大佬我想要个star
 
 <img src="https://user-gold-cdn.xitu.io/2018/5/17/1636bde1d014d991?w=198&h=198&f=jpeg&s=3630"></img>

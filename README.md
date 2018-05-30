@@ -61,7 +61,7 @@ export default actions
 
 ## 项目截图
 <img style='float: left;' src='https://user-gold-cdn.xitu.io/2018/5/30/163aec35481bb6f5?w=361&h=640&f=png&s=20853'>
-<img src='https://user-gold-cdn.xitu.io/2018/5/30/163aec3a4883a6a6?w=361&h=640&f=png&s=21366'>
+<img style='float: left;' src='https://user-gold-cdn.xitu.io/2018/5/30/163aec3a4883a6a6?w=361&h=640&f=png&s=21366'>
 
 
 

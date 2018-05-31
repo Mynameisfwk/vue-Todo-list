@@ -35,21 +35,17 @@ export default {
       var hour = date.getHours(); // 时
       var minutes = date.getMinutes(); // 分
 
-      if (month >= 1 && month <= 9) {
-        month = "0" + month;
-      } else if (day >= 1 && day <= 9) {
-        day = "0" + day;
-      } else if (hour >= 1 && hour <= 9) {
-        hour = "0" + hour;
-      } else if (minutes <= 9) {
-        minutes = "0" + minutes;
+      var formatNumber = function (n) {
+        n = n.toString()
+        return n[1] ? n : '0' + n
       }
-      var currentdate = month+"月"+ day +"日";
+
+      var currentdate = formatNumber(month) + '月' + formatNumber(day) + '日'
       var data = {
         text: list.text,
         currentdate: currentdate
       };
-      
+
       list.text == "" ? Toast({message: '不能提交空值哦',iconClass: 'iconfont icon-warning',duration: 600}):this.$store.dispatch("setOrder", data);
       list.text = "";
       //  this.$router.back();

@@ -23,7 +23,6 @@ const state={
 }
 
 export default state
-
 ```
 
 ```bash
